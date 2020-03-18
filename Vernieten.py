@@ -1,29 +1,26 @@
 import Zange
 
 class Nietprozess:
-    def oelen(self, zange):
+    def __init__(self, rohteil):
+        """
+        :param rohteil: Zangenobjekt
+        """
+        zange = rohteil
+
+    def oelen(self):
         """
         Die Zange wird geölt
-
-        :param zange: Zangenobjekt
-        :return: null
         """
-        zange.geoelt = True
+        self.zange.geoelt = True
 
-    def vormontieren(self, zange):
+    def vormontieren(self):
         """
         Die Zange wird montiert
-
-        :param zange: Zangenobjekt
-        :return:
         """
-        zange.vormontiert = True
+        self.zange.vormontiert = True
 
-    def nieten(self, zange):
+    def nieten(self):
         """
         Die Zange wird vernietet
-
-        :param zange: Zangenobjekt
-        :return:
         """
-        zange.vernietet = True
+        self.zange.vernietet = True
