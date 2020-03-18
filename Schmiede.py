@@ -75,3 +75,6 @@ class Schmiede():
         print("fertig")
 
         return zange
+
+s = Schmiede()
+z = s.prozess()
