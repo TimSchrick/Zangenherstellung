@@ -2,7 +2,7 @@ from Zange import Zange
 from Vernieten import Nietprozess
 
 def test_nietprozess():
-    zange = Zange
+    zange = Zange()
     nm = Nietprozess()
 
     # Schmiede Parameter setzen
