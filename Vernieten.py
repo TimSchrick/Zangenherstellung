@@ -16,8 +16,7 @@ def vormontieren(zange):
     :param zange: Zangenobjekt
     :return:
     """
-
-    zange.vormontiert = true
+    zange.vormontiert = True
 
 def nieten(zange):
     """
@@ -26,7 +25,6 @@ def nieten(zange):
     :param zange: Zangenobjekt
     :return:
     """
-
     zange.vernietet = True
 
 def ablauf(zange):
@@ -35,7 +33,6 @@ def ablauf(zange):
     :param zange: Zangenobjekt
     :return:
     """
-
     oelen(zange)
     vormontieren(zange)
     nieten(zange)
