@@ -5,23 +5,6 @@ Es werden folgende Merkmale an der Zange geschaffen:
 - tellern des Gewerbes
 - fräsen der Bohrung
 - versenken der Bohrung
-
-erwarteter input vom typ:
-    class Zange:
-        def __init__(self):
-            self.erhitzt = False
-            self. gebogen = False
-            self.geschmiedet = False
-            self.abgegratet = False
-            self.getellert = False
-            self.versenkt = False
-            self.gebohrt = False
-            self.geoelt = False
-            self.vormontiert = False
-            self.vernietet = False
-            self.geoeffnet = False
-            self.eingestellt = False
-            self.geprueft = False
 """
 from Zange import Zange
 
