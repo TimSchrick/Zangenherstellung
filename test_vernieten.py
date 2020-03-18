@@ -1,8 +1,8 @@
-import Zange
-import Vernieten
+from Zange import Zange
+from Vernieten import oelen, vormontieren, nieten
 
 def test_nietprozess():
-    zange = Zange()
+    zange = Zange
 
     # Schmiede Parameter setzen
     zange.erhitzt = True
