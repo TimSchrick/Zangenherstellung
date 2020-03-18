@@ -27,13 +27,3 @@ class Nietprozess:
         :return:
         """
         zange.vernietet = True
-
-    def ablauf(zange):
-        """
-        Der Prozessablauf
-        :param zange: Zangenobjekt
-        :return:
-        """
-        oelen(zange)
-        vormontieren(zange)
-        nieten(zange)
