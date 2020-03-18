@@ -4,7 +4,6 @@ class Gangeinstellen:
 
     def __init__(self, zange):
         self.zange_obj = zange
-        self.doit()
 
     def oeffnen(self):
         self.zange_obj.geoeffnet = True
@@ -21,4 +20,5 @@ class Gangeinstellen:
         self.pruefen()
 
     def getresult(self):
+        self.doit()
         return self.zange_obj

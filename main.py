@@ -8,4 +8,4 @@ if __name__ == '__main__':
     zange = Zange()
     pG = GE(zange)
     zange = pG.getresult()
-    print()
+    print(zange.geoeffnet)
