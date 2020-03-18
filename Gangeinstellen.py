@@ -19,6 +19,6 @@ class Gangeinstellen:
         self.einstellen()
         self.pruefen()
 
-    def getresult(self):
+    def dotitandreturn(self):
         self.doit()
         return self.zange_obj

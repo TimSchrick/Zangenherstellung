@@ -21,3 +21,4 @@ def test_pruefen():
     pG = GE(zange)
     pG.pruefen()
     assert zange.geprueft == True
+
