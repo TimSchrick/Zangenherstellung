@@ -27,5 +27,3 @@ def test_nietprozess():
     # Vernieten
     nm.nieten(zange)
     assert zange.vernietet
-
-test_nietprozess()
