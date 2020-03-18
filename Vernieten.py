@@ -1,7 +1,7 @@
 import Zange
 
 class Nietprozess:
-    def oelen(zange):
+    def oelen(self, zange):
         """
         Die Zange wird geölt
 
@@ -10,7 +10,7 @@ class Nietprozess:
         """
         zange.geoelt = True
 
-    def vormontieren(zange):
+    def vormontieren(self, zange):
         """
         Die Zange wird montiert
 
@@ -19,7 +19,7 @@ class Nietprozess:
         """
         zange.vormontiert = True
 
-    def nieten(zange):
+    def nieten(self, zange):
         """
         Die Zange wird vernietet
 
