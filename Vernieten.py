@@ -5,7 +5,7 @@ class Nietprozess:
         """
         :param rohteil: Zangenobjekt
         """
-        zange = rohteil
+        self.zange = rohteil
 
     def oelen(self):
         """
