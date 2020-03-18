@@ -9,3 +9,5 @@ if __name__ == '__main__':
     pG = Gangeinstellen(zange)
     zange = pG.getresult()
     print(zange.geoeffnet)
+    pG = GE(zange)
+    zange = pG.dotitandreturn()
