@@ -3,7 +3,7 @@
 class Zange:
     def __init__(self):
         self.erhitzt = False
-        self. gebogen = False
+        self.gebogen = False
         self.geschmiedet = False
         self.abgegratet = False
         self.getellert = False
